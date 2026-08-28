@@ -8,3 +8,5 @@ app.use("/api/notes", notesRoutes);
 app.listen(5001, () => {
   console.log("Server started on Port: 5001");
 });
+
+const uri = process.env.MONGODB_URI;
